@@ -129,7 +129,8 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
     .services__container{
-        grid-template-columns: repeat(3, 218px);
+        align-items: center;
+        grid-template-columns: repeat(2, 300px);
     }
   }
   

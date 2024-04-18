@@ -41,8 +41,8 @@ const Services = () => {
 
               <h3 className="services__modal-title">Full Stack Websites</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience in the technologies. Providing quality
-                work to clients and companies.
+                Service with more than 3 years of experience in the
+                technologies.
               </p>
 
               <ul className="services__modal-services grid">
@@ -55,96 +55,32 @@ const Services = () => {
 
                 <li className="services__modal-service">
                   <i className="fi fi-rs-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create responcive Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="fi fi-rs-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  I guarantee compatibility across various devices, prioritizing an optimal user experience.
+                    I create responcive Web page development.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="fi fi-rs-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  I will focus on strategic positioning and utilizing Git for version control.
+                    I guarantee compatibility across various devices,
+                    prioritizing an optimal user experience.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="fi fi-rs-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I ensure security and authentication by quality database management.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="services__content">
-          <div>
-            <i className="fi fi-rr-square-code services__icon"></i>
-            <h3 className="services__title">
-              ML <br />Model Development
-            </h3>
-          </div>
-
-          <span className="services__button" onClick={() => toggleTab(2)}>
-            View More
-            <i className="fi fi-rr-arrow-small-right services__button-icon"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 2
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                onClick={() => setToggleState(0)}
-                className="fi fi-rr-cross-small services__model-close"
-              ></i>
-
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
-              <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
-              </p>
-
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="fi fi-rs-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I develop the user interface
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="fi fi-rs-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="fi fi-rs-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
+                    I will focus on strategic positioning and utilizing Git for
+                    version control.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="fi fi-rs-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="fi fi-rs-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    I ensure security and authentication by quality database
+                    management.
                   </p>
                 </li>
               </ul>
@@ -177,17 +113,19 @@ const Services = () => {
                 className="fi fi-rr-cross-small services__model-close"
               ></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Data Analytics</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+              Service with more than 2 years of experience in the
+                technologies.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="fi fi-rs-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface
+                    Data Visualization: Creating visually appealing and
+                    easy-to-understand charts, graphs, and dashboards to
+                    communicate findings effectively to stakeholders.
                   </p>
                 </li>
 
@@ -199,21 +137,28 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="fi fi-rs-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
+                    Predictive Modeling: Developing models to forecast trends,
+                    identify patterns, and make data-driven predictions for
+                    future outcomes.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="fi fi-rs-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Data Cleaning and Preprocessing: Ensuring data quality by
+                    cleaning and preparing datasets for analysis, including
+                    handling missing values, outliers, and inconsistencies.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="fi fi-rs-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Consultation and Recommendations: Offering expert advice on
+                    data strategy, tools, and techniques, as well as suggesting
+                    actionable steps to improve business processes based on data
+                    insights.
                   </p>
                 </li>
               </ul>
