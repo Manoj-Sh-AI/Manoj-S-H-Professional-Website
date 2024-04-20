@@ -3,7 +3,7 @@
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 
 .services__container{
-    grid-template-columns: repeat(3, 270px);
+    grid-template-columns: repeat(2, 270px);
     justify-content: center;
     column-gap: 1.8rem;
 }
