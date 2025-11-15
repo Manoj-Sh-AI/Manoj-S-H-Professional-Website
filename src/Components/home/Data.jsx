@@ -3,7 +3,7 @@ import "./Home.css"
 const Data = () => {
   return (
     <div className='home__data'>
-      <h1 className='home__title'>Manoj S H
+      <h1 className='home__title'>Manoj Saligrama Harisha
         <svg
                   width="36"
                   height="36"
